@@ -7,9 +7,9 @@ public class Main {
         JFrame frame = new JFrame("Калькулятор");
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(200, 220);
-        frame.setResizable(false);
+        frame.setSize(310, 200);
         frame.setLocationRelativeTo(null);
-        new CalculatorWindow(frame.getContentPane());
+        CalculatorWindow win = new CalculatorWindow(frame.getContentPane());
+
     }
 }
